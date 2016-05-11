@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 23, 2011 11:18:04 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.Evento" table="evento" schema="public">
+        <id name="id" type="string">
+            <column name="id" length="67" />
+            <generator class="assigned" />
+        </id>
+        <property name="corgao" type="string">
+            <column name="corgao" length="2" />
+        </property>
+        <property name="tpAmb" type="java.lang.Character">
+            <column name="tpamb" length="1" />
+        </property>
+        <property name="cnpj" type="string">
+            <column name="cnpj" length="14" />
+        </property>
+        <property name="chNFe" type="string">
+            <column name="chnfe" length="44" />
+        </property>
+        <property name="dhEvento" type="timestamp">
+            <column name="dhevento" length="29" />
+        </property>
+        <property name="tpEvento" type="string">
+            <column name="tpevento" length="6" />
+        </property>
+        <property name="nseqEvento" type="string">
+            <column name="nseqevento" length="2" />
+        </property>
+        <property name="verEvento" type="string">
+            <column name="verevento" length="4" />
+        </property>
+        <property name="descEvento" type="string">
+            <column name="descevento" />
+        </property>
+        <property name="xcorrecao" type="string">
+            <column name="xcorrecao" />
+        </property>
+        <property name="xcondUso" type="string">
+            <column name="xconduso" length="530"/>
+        </property>
+        <property name="cstat" type="string">
+            <column name="cstat" />
+        </property>
+        <property name="xmotivo" type="string">
+            <column name="xmotivo" />
+        </property>
+        <property name="txtValido" type="java.lang.Character">
+            <column name="txtValido" length="1" />
+        </property>
+        <property name="xmlAssinado" type="java.lang.Character">
+            <column name="xmlAssinado" length="1" />
+        </property>
+        <property name="xmlValido" type="java.lang.Character">
+            <column name="xmlValido" length="1" />
+        </property>
+        <property name="xmlEnviado" type="java.lang.Character">
+            <column name="xmlEnviado" length="1" />
+        </property>
+        <property name="pe" type="string">
+            <column name="pe" length="255" />
+        </property>
+        <property name="codEstabelecimento" type="int">
+            <column name="codestabelecimento"/>
+        </property>
+        <property name="nprot" type="string">
+            <column name="nprot" length="15" />
+        </property>
+        <property name="txtRetornoGerado" type="java.lang.Character">
+            <column name="txtretornogerado" length="1" />
+        </property>
+	</class>
+	<query name="evento.procuraEventosGerados">
+	<![CDATA[
+            from Evento e
+            where 
+            e.cnpj = :_cnpj
+            and e.pe = :_pe
+            and e.txtValido = '1'
+            and e.xmlAssinado = '0'
+            and e.xmlValido = '0'
+            and e.xmlEnviado = '0'
+    ]]>
+	</query>
+	<query name="evento.procuraEventosAssinados">
+	<![CDATA[
+            from Evento e
+            where 
+            e.cnpj = :_cnpj
+            and e.pe = :_pe
+            and e.txtValido = '1'
+            and e.xmlAssinado = '1'
+            and e.xmlValido = '0'
+            and e.xmlEnviado = '0'
+    ]]>
+	</query>
+	<query name="evento.procuraEventosValidos">
+	<![CDATA[
+            from Evento e
+            where 
+            e.cnpj = :_cnpj
+            and e.pe = :_pe
+            and e.txtValido = '1'
+            and e.xmlAssinado = '1'
+            and e.xmlValido = '1'
+            and e.xmlEnviado = '0'
+    ]]>
+	</query>
+	<query name="evento.procuraTxtRetornoPendente">
+	<![CDATA[
+            from Evento e
+            where 
+            e.cnpj = :_cnpj
+            and e.pe = :_pe
+            and e.txtValido = '1'
+            and e.xmlAssinado = '1'
+            and e.xmlValido = '1'
+            and e.xmlEnviado = '1'
+            and e.txtRetornoGerado = '0'
+    ]]>
+	</query>
+	<query name="evento.procuraTxtEntradaRetornoPendente">
+	<![CDATA[
+            from Evento e
+            where 
+            e.codEstabelecimento = -1
+            and e.pe = ''
+            and e.txtValido = '1'
+            and e.xmlAssinado = '1'
+            and e.xmlValido = '1'
+            and e.xmlEnviado = '1'
+            and e.txtRetornoGerado = '0'
+    ]]>
+	</query>
+	<query name="evento.getEventosNotaFiscal">
+	<![CDATA[
+            from Evento e
+            where 
+            e.chNFe = :_chaveAcesso
+    ]]>
+	</query>
+</hibernate-mapping>

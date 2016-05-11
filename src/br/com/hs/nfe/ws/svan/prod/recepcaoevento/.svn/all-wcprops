@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/ws/svan/prod/recepcaoevento
+END
+RecepcaoEvento.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/ws/svan/prod/recepcaoevento/RecepcaoEvento.java
+END
+RecepcaoEventoSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/ws/svan/prod/recepcaoevento/RecepcaoEventoSoap.java
+END
+RecepcaoEventoSoap_RecepcaoEventoSoap_Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/ws/svan/prod/recepcaoevento/RecepcaoEventoSoap_RecepcaoEventoSoap_Client.java
+END
+RecepcaoEventoSoap_RecepcaoEventoSoap12_Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/ws/svan/prod/recepcaoevento/RecepcaoEventoSoap_RecepcaoEventoSoap12_Client.java
+END

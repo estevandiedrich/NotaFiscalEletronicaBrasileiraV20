@@ -1,0 +1,2 @@
+wsdl2java -p br.com.hs.nfe.ws.sc.homo.nferecepcao2 -db xmlbeans -client -exsh true NfeRecepcao2.wsdl
+jar cvf schemaorg_apache_xmlbeans.jar -C schemaorg_apache_xmlbeans/ *

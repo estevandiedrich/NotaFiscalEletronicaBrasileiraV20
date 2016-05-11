@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 23, 2011 11:18:04 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.NfeEntrada" table="nfeentrada" schema="public">
+        <id name="chaveAcesso" type="string">
+            <column name="chaveAcesso" length="47" />
+            <generator class="assigned" />
+        </id>
+        <property name="nprot" type="string">
+            <column name="nProt" length="15" />
+        </property>
+        <property name="cstat" type="string">
+            <column name="cStat" length="3" />
+        </property>
+        <property name="xmotivo" type="string">
+            <column name="xMotivo" />
+        </property>
+        <property name="cnpj" type="string">
+            <column name="cnpj" length="14" />
+        </property>
+        <property name="dhRecbto" type="timestamp">
+            <column name="dhRecbto" length="29" />
+        </property>
+        <property name="serie" type="int">
+            <column name="serie"/>
+        </property>
+        <property name="nnf" type="int">
+            <column name="nnf" />
+        </property>
+        <property name="cuf" type="string">
+            <column name="cuf" length="2" />
+        </property>
+        <property name="dest" type="string">
+            <column name="dest" length="14" />
+        </property>
+        <property name="tpAmb" type="java.lang.Character">
+            <column name="tpamb" length="1" />
+        </property>
+        <property name="tpEmis" type="java.lang.Character">
+            <column name="tpemis" length="1" />
+        </property>
+        <property name="digVal" type="string">
+            <column name="digval" />
+        </property>
+        <property name="danfeGerado" type="java.lang.Character">
+            <column name="danfegerado" length="1" />
+        </property>
+        <property name="txtGerado" type="java.lang.Character">
+            <column name="txtgerado" length="1" />
+        </property>
+        <property name="consultaEventos" type="java.lang.Character">
+            <column name="consultaeventos" length="1" />
+        </property>
+        <property name="eventoConfirmacao" type="java.lang.Character">
+            <column name="eventoconfirmacao" length="1" />
+        </property>
+	</class>
+	<query name="nfeentrada.procuraNotasEntrada">
+	<![CDATA[
+            from NfeEntrada nf
+            where nf.cstat = '103'
+            and nf.dest = :_cnpj
+            order by nf.dhRecbto desc
+    ]]>
+	</query>
+	<query name="nfeentrada.procuraNotasProcessadas">
+	<![CDATA[
+            from NfeEntrada nf
+            where nf.cstat = '100'
+            and nf.danfeGerado = '0'
+            order by nf.dhRecbto desc
+    ]]>
+	</query>
+	<query name="nfeentrada.procuraTxtEntradaPendente">
+	<![CDATA[
+            from NfeEntrada nf
+            where nf.cstat = '100'
+            and nf.danfeGerado = '1'
+            and nf.txtGerado = '0'
+            order by nf.dhRecbto desc
+    ]]>
+	</query>
+	<query name="nfeentrada.procuraEventosConfirmacaoPendentes">
+	<![CDATA[
+            from NfeEntrada nf
+            where nf.cstat = '100'
+            and nf.dest = :_cnpj
+            and nf.danfeGerado = '1'
+            and nf.txtGerado = '1'
+            and nf.eventoConfirmacao = '0'
+            order by nf.dhRecbto desc
+    ]]>
+	</query>
+	<query name="nfeentrada.findByChaveAcesso">
+	<![CDATA[
+            from NfeEntrada nf
+            where nf.chaveAcesso = :_chaveAcesso
+            order by nf.dhRecbto desc
+    ]]>
+	</query>
+	<query name="nfeentrada.consultaEventos">
+	<![CDATA[
+            from NfeEntrada nf
+            where nf.consultaEventos = '1'
+            order by nf.dhRecbto desc
+    ]]>
+	</query>
+</hibernate-mapping>

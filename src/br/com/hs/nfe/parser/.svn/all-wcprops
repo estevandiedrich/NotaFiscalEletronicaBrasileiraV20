@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/parser
+END
+InutNFeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/parser/InutNFeParser.java
+END
+EnvEventoParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/parser/EnvEventoParser.java
+END
+EnviNFeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/parser/EnviNFeParser.java
+END
+CancNFeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/parser/CancNFeParser.java
+END
+EnviNFeParserA3.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/45/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/parser/EnviNFeParserA3.java
+END

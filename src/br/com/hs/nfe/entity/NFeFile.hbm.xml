@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 23, 2011 11:18:04 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.NFeFile" table="nfefile" schema="public">
+        <id name="chaveAcesso" type="string">
+            <column name="chaveAcesso" length="47" />
+            <generator class="assigned" />
+        </id>
+        <property name="nfe" type="binary" column="nfe"/>
+    </class>
+    <query name="nfefile.findByChaveAcesso">
+	<![CDATA[
+            from NFeFile nf
+            where nf.chaveAcesso = :_chaveAcesso
+    ]]>
+	</query>
+</hibernate-mapping>

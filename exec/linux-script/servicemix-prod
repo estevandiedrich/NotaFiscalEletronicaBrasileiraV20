@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# SMX Init Script
+#
+SMX_HOME=/opt/nfe/servicemix
+
+case "$1" in
+       start)          if [[ `/etc/init.d/mysql status` != 0 ]]; then
+                                                       /etc/init.d/mysql start
+                                               fi
+                                               $SMX_HOME/bin/servicemix-prod  >> $SMX_HOME/data/log/wrapper-prod.log 2> /dev/null &
+                                               echo $! > $SMX_HOME/servicemix.pid
+                                               echo "ServiceMix Started"
+                                               ;;
+       stop)                   read pid < $SMX_HOME/servicemix.pid
+                                               kill $pid
+                                               rm $SMX_HOME/servicemix.pid
+                                               echo "ServiceMix Stopped"
+                                               ;;
+       restart)        $0 stop
+                                               $0 start
+                                               ;;
+       *)                              echo "Usage: $0 (stop|start|restart)"
+                                               exit 1
+                                               ;;
+esac
+
+exit 0

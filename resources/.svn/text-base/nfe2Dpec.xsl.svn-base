@@ -1,0 +1,84 @@
+<?xml version='1.0' ?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:a="http://www.portalfiscal.inf.br/nfe">
+	<xsl:template match="/">
+		<envDPEC xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.01">
+			<infDPEC>
+				<xsl:attribute name="Id">
+					<xsl:value-of select="concat('DPEC',a:enviNFe/a:NFe/a:infNFe/a:emit/a:CNPJ)"/>
+				</xsl:attribute>
+				<ideDec>
+					<cUF>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:ide/a:cUF"/>
+					</cUF>
+					<tpAmb>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:ide/a:tpAmb"/>
+					</tpAmb>
+					<verProc>101</verProc>
+					<CNPJ>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:emit/a:CNPJ"/>
+					</CNPJ>
+					<IE>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:emit/a:IE"/>
+					</IE>
+				</ideDec>
+				<resNFe>
+					<chNFe>
+						<xsl:value-of select="substring-after(a:enviNFe/a:NFe/a:infNFe/@Id,'NFe')"/>
+					</chNFe>
+					<CNPJ>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:dest/a:CNPJ"/>
+					</CNPJ>
+					<UF>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:dest/a:enderDest/a:UF"/>
+					</UF>
+					<vNF>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:total/a:ICMSTot/a:vNF"/>
+					</vNF>
+					<vICMS>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:total/a:ICMSTot/a:vICMS"/>
+					</vICMS>
+					<vST>
+						<xsl:value-of select="a:enviNFe/a:NFe/a:infNFe/a:total/a:ICMSTot/a:vST"/>
+					</vST>
+				</resNFe>
+			</infDPEC>
+		</envDPEC>
+	</xsl:template>
+</xsl:stylesheet><!-- Stylus Studio meta-information - (c) 2004-2007. Progress Software Corporation. All rights reserved.
+
+<metaInformation>
+	<scenarios>
+		<scenario default="yes" name="nfe2Dpec" userelativepaths="yes" externalpreview="no" url="..\..\..\..\filas\05537225000103\enviNFe\xmlValidos\NFe42110705537225000103550010000092551200619624.xml" htmlbaseurl=""
+		          outputurl="..\..\..\..\filas\05537225000103\dpec\xml\dpectest1.xml" processortype="saxon8" useresolver="no" profilemode="0" profiledepth="" profilelength="" urlprofilexml="" commandline="" additionalpath="" additionalclasspath=""
+		          postprocessortype="none" postprocesscommandline="" postprocessadditionalpath="" postprocessgeneratedext="" validateoutput="no" validator="internal" customvalidator="">
+			<advancedProp name="sInitialMode" value=""/>
+			<advancedProp name="bXsltOneIsOkay" value="true"/>
+			<advancedProp name="bSchemaAware" value="false"/>
+			<advancedProp name="bXml11" value="false"/>
+			<advancedProp name="iValidation" value="0"/>
+			<advancedProp name="bExtensions" value="true"/>
+			<advancedProp name="iWhitespace" value="0"/>
+			<advancedProp name="sInitialTemplate" value=""/>
+			<advancedProp name="bTinyTree" value="true"/>
+			<advancedProp name="bWarnings" value="true"/>
+			<advancedProp name="bUseDTD" value="false"/>
+			<advancedProp name="iErrorHandling" value="fatal"/>
+		</scenario>
+	</scenarios>
+	<MapperMetaTag>
+		<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="..\..\..\..\filas\05537225000103\dpec\xml\teste1dpec.xml" destSchemaRoot="envDPEC" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no">
+			<SourceSchema srcSchemaPath="..\..\..\..\filas\05537225000103\enviNFe\xmlValidos\NFe42110705537225000103550010000092551200619624.xml" srcSchemaRoot="enviNFe" AssociatedInstance="" loaderFunction="document" loaderFunctionUsesURI="no"/>
+			<SourceSchema srcSchemaPath="..\..\..\..\filas\05537225000103\enviNFe\xmlValidos\NFe42110805537225000103550010000104604100575325.xml" srcSchemaRoot="enviNFe"
+			              AssociatedInstance="file:///c:/filas/05537225000103/enviNFe/xmlValidos/NFe42110805537225000103550010000104604100575325.xml" loaderFunction="document" loaderFunctionUsesURI="no"/>
+		</MapperInfo>
+		<MapperBlockPosition>
+			<template match="/">
+				<block path="envDPEC/infDPEC/xsl:attribute/xsl:value-of" x="206" y="90"/>
+				<block path="envDPEC/infDPEC/resNFe/chNFe/xsl:value-of" x="246" y="92"/>
+			</template>
+		</MapperBlockPosition>
+		<TemplateContext></TemplateContext>
+		<MapperFilter side="source"></MapperFilter>
+	</MapperMetaTag>
+</metaInformation>
+-->

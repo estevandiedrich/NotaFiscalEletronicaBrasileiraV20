@@ -1,0 +1,39 @@
+// declarando auxiliares  
+char pin[] = "233426".toCharArray();  
+String config = "c:\\token.cfg"  
+//registrando provedor  
+Provider pr = new sun.security.pkcs11.SunPKCS11(config);  
+java.security.Security.addProvider(pr);  
+      
+// recebendo um erro... rsrs**  
+KeyStore ks = ks = KeyStore.getInstance("pkcs11");  
+
+
+//************************************************//
+
+PrivateKey privateKey = null;  
+KeyStore.PrivateKeyEntry pkEntry = null;  
+KeyStore ks = null;  
+  
+  
+//------------------------------------------------------------------  
+//         Carregando a keyStore com o certificado  
+//------------------------------------------------------------------  
+if (tipoCert == null || "A1".equals(tipoCert)) {  
+	ks = KeyStore.getInstance(tipo);  
+	FileInputStream fis =   
+		new FileInputStream(new File(APPSet.getProperty("certificado")));  
+	ks.load(fis, pin);  
+  
+} else if ("A3".equals(tipoCert)) {  
+	Provider pr = new sun.security.pkcs11.SunPKCS11(config);  
+	java.security.Security.addProvider(pr);  
+  
+	ks = KeyStore.getInstance("pkcs11");  
+	ks.load(null, pin);  
+}  
+// Descarregar o keyStore
+Provider pkcs11Provider = ...;
+String pkcs11ProviderName = pkcs11Provider.getName();
+Security.removeProvider(pkcs11ProviderName); 
+//****************************************************//

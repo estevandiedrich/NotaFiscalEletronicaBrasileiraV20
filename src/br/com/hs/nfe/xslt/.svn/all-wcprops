@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt
+END
+XsltNFeToDpecPedidoThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltNFeToDpecPedidoThread.java
+END
+XsltDpecToTxtThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltDpecToTxtThread.java
+END
+XsltEventoEntradaToTxtThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltEventoEntradaToTxtThread.java
+END
+XsltInutToTxtThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltInutToTxtThread.java
+END
+XsltEventoToTxtThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltEventoToTxtThread.java
+END
+XsltNFeToTxt.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltNFeToTxt.java
+END
+XsltCancToTxtThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltCancToTxtThread.java
+END
+XsltNFeToDpecThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltNFeToDpecThread.java
+END
+XsltNFeEntradaToTxtThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltNFeEntradaToTxtThread.java
+END
+XsltNFeToTxtTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltNFeToTxtTester.java
+END
+XsltNFeToTxtThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/xslt/XsltNFeToTxtThread.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/eurekatablet/!svn/ver/23/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/signer
+END
+AssinarXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/42/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/signer/AssinarXML.java
+END
+SignXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/eurekatablet/!svn/ver/23/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/signer/SignXML.java
+END
+CertificadoA3Singleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/42/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/signer/CertificadoA3Singleton.java
+END
+CarregaCertificadoA3.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/eurekatablet/!svn/ver/42/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/signer/CarregaCertificadoA3.java
+END

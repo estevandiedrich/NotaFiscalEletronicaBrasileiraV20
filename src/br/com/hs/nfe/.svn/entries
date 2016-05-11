@@ -1,0 +1,179 @@
+10
+
+dir
+24
+https://subversion.assembla.com/svn/eurekatablet/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe
+https://subversion.assembla.com/svn/eurekatablet
+
+
+
+2012-06-20T16:05:38.300769Z
+23
+estevan.diedrich
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e443dee1-f7f6-4648-b3e2-a47c5c363af9
+
+conf
+dir
+
+email
+dir
+
+cancproc
+dir
+
+hb
+dir
+
+ws
+dir
+
+envinfe
+dir
+
+xslt
+dir
+
+nfeproc
+dir
+
+cancnfe
+dir
+
+cert
+dir
+
+consrecinfe
+dir
+
+consdpec
+dir
+
+dpecproc
+dir
+
+filtro
+dir
+
+dao
+dir
+
+pe
+dir
+
+percxml
+dir
+
+compiler
+dir
+
+recinfe
+dir
+
+fsda
+dir
+
+file
+dir
+
+dom
+dir
+
+conssit
+dir
+
+vo
+dir
+
+queue
+dir
+
+xpath
+dir
+
+signer
+dir
+
+print
+dir
+
+parser
+dir
+
+xml
+dir
+
+META-INF
+dir
+
+zip
+dir
+
+Main.java
+file
+42
+
+
+
+2012-07-03T00:59:44.100010Z
+6e02c0f7b9a66070375f995240ca9774
+2012-07-03T10:56:07.425677Z
+42
+estevan.diedrich
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12127
+
+inutnfe
+dir
+
+pdf
+dir
+
+base
+dir
+
+cte
+dir
+
+dpec
+dir
+
+entity
+dir
+
+util
+dir
+

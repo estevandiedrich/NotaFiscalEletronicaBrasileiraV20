@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/eurekatablet/!svn/ver/23/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/envinfe
+END
+EnviNFeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/34/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/envinfe/EnviNFeThread.java
+END
+EnviNFeAssinadorThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/eurekatablet/!svn/ver/41/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/envinfe/EnviNFeAssinadorThread.java
+END
+EnviNFeValidadorThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/eurekatablet/!svn/ver/29/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/envinfe/EnviNFeValidadorThread.java
+END
+EnviNFeEnviadorThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/41/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/envinfe/EnviNFeEnviadorThread.java
+END

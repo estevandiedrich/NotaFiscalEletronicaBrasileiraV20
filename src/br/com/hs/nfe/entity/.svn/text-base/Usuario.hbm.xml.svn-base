@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.Usuario" table="usuario">
+<!-- 
+Campos do banco de dados
+ -->
+ 		<!-- Codigo Usuario -->
+        <id name="codUsuario" type="int" column="codusuario">
+            <generator class="native" />
+        </id>
+        
+        <!-- Nome do Usuario -->
+        <property name="nome" type="string">
+            <column name="nome" length="50" not-null="true" />
+        </property>
+        
+        <!-- Login do Usuario -->
+        <property name="usuario" type="string">
+            <column name="usuario" length="20" not-null="true" unique="true" />
+        </property>
+        
+        <!-- Senha do Usuario -->
+        <property name="senhaEncrypted" type="string">
+            <column name="senha" length="20" not-null="true" />
+        </property>
+        
+		<!-- Tipo de Usuario -->
+        <property name="codTpUsuario" type="int">
+            <column name="codtpusuario" not-null="true" />
+        </property>
+    </class>
+	<query name="usuario.findByUsrSenha"><![CDATA[
+            from Usuario u
+            where u.usuario = :_usuario
+            and u.senhaEncrypted = :_senha
+            ]]>
+	</query>
+
+	<query name="usuario.findByUsr"><![CDATA[
+            from Usuario u
+            where u.usuario = :_usuario
+            ]]>
+	</query>
+
+	<query name="usuario.findUserAndADMByAdm"><![CDATA[
+		Select distinct
+			u
+		from 
+			Usuario u, 
+			UsuarioEstabelecimento ueO, 
+			UsuarioEstabelecimento ueU 
+		where 
+            ueU.codUsuario = :_codUsuario
+            AND ueO.codEstabelecimento = ueU.codEstabelecimento
+            AND u.codUsuario = ueO.codUsuario
+            AND (u.codTpUsuario = :_tpUsuario or u.codTpUsuario = :_tuAdmin)
+		]]>
+	</query>
+
+</hibernate-mapping>

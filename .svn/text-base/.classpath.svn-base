@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/asm.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/barbecue-1.5-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/commons-beanutils-core-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-api-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-common-schemas-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-common-utilities-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-bindings-http-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-bindings-soap-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-bindings-xml-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-core-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-databinding-jaxb-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-databinding-xmlbeans-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-frontend-jaxws-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-frontend-simple-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-transports-http-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-transports-http-jetty-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-rt-ws-addr-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-testutils-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/cxf-tools-common-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/fontbox-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/groovy-all-1.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/hibernate-tools.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/itext-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/jasperreports-3.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/jta.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/mail.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/pdfbox-0.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/pop3.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/schemaorg_apache_xmlbeans.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/smtp.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/wrapper.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/wsdl4j-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/xalan-2.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/xmlbeans-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/xml-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/XmlSchema-1.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/xstream-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/commons-codec-20041127.091804.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20PE/lib/rmi_stub.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/postgresql-9.0-801.jdbc3.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSENModel2.jar" sourcepath="C:/Users/estevan/Documents/Desktop/Emissor receita/DSENModel2.zip"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSGEModel.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSGECommon.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSENCommon2.jar" sourcepath="C:/Users/estevan/Desktop/Emissor receita/DSENCommon2.zip"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/jhall.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSGEBrazilUtils.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSGECertif.jar" sourcepath="C:/Users/estevan/Documents/Desktop/Emissor receita/DSGECertif.zip"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSGEProvider.jar" sourcepath="C:/Users/estevan/Documents/Desktop/Emissor receita/DSGEProvider.zip"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSENWebService2.jar" sourcepath="C:/Users/estevan/Documents/Desktop/Emissor receita/DSENWebService2.zip"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSGEWebService.jar" sourcepath="C:/Users/estevan/Documents/Desktop/Emissor receita/DSGEWebService.zip"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSGEUtil.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/axis.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/DSENUtil2.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/nfe_v2.00.jar"/>
+	<classpathentry kind="lib" path="C:/dev.estevan/workspace-java/NotaFiscalEletronicaBrasileiraV20/lib/dpec_v1.01.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/nfe/wsdl/nfeRecepcao2/impl
+END
+NfeCabecMsgImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/nfe/wsdl/nfeRecepcao2/impl/NfeCabecMsgImpl.java
+END
+NfeRecepcaoLote2ResultDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/nfe/wsdl/nfeRecepcao2/impl/NfeRecepcaoLote2ResultDocumentImpl.java
+END
+NfeDadosMsgDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/nfe/wsdl/nfeRecepcao2/impl/NfeDadosMsgDocumentImpl.java
+END
+NfeCabecMsgDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/nfe/wsdl/nfeRecepcao2/impl/NfeCabecMsgDocumentImpl.java
+END

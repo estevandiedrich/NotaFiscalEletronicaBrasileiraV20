@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf
+END
+DanfeDpecThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/36/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeDpecThread.java
+END
+DanfeFsdaThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/36/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeFsdaThread.java
+END
+DanfeBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/eurekatablet/!svn/ver/36/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeBuilder.java
+END
+DanfeEntradaThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/36/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeEntradaThread.java
+END
+DanfeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/eurekatablet/!svn/ver/36/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeThread.java
+END
+DanfeRetratoScriptlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeRetratoScriptlet.java
+END
+DanfeCancThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/36/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeCancThread.java
+END
+DanfeBuilderTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/36/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pdf/DanfeBuilderTester.java
+END

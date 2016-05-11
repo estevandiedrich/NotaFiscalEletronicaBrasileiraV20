@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 23, 2011 11:18:04 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.InutNfe" table="inutnfe" schema="public">
+        <id name="codInutilizaNotaFiscal" type="int" column="codinutilizanotafiscal">
+            <generator class="native" />
+        </id>
+        <property name="nnfIni" type="string">
+            <column name="nnfini" length="9" />
+        </property>
+        <property name="nnfFin" type="string">
+            <column name="nnffin" length="9" />
+        </property>
+        <property name="serie" type="string">
+            <column name="serie" length="3" />
+        </property>
+        <property name="dhRecbto" type="timestamp">
+            <column name="dhrecbto" length="29" />
+        </property>
+        <property name="cstat" type="string">
+            <column name="cstat" length="3" />
+        </property>
+        <property name="xmotivo" type="string">
+            <column name="xmotivo" />
+        </property>
+        <property name="xjust" type="string">
+            <column name="xjust" />
+        </property>
+        <property name="pe" type="string">
+            <column name="pe" length="255" />
+        </property>
+        <property name="nprot" type="string">
+            <column name="nProt" length="15" />
+        </property>
+        <property name="cnpj" type="string">
+            <column name="cnpj" length="14" />
+        </property>
+        <property name="ano" type="string">
+            <column name="ano" length="2" />
+        </property>
+        <property name="xmlInutilizado" type="java.lang.Character">
+            <column name="xmlinutilizado" length="1" />
+        </property>
+        <property name="id" type="string">
+            <column name="id" length="43" />
+        </property>
+        <property name="codEstabelecimento" type="int">
+            <column name="codestabelecimento"/>
+        </property>
+        <property name="cuf" type="string">
+            <column name="cuf" length="2" />
+        </property>
+        <property name="tpAmb" type="java.lang.Character">
+            <column name="tpamb" length="1" />
+        </property>
+        <property name="tpEmis" type="java.lang.Character">
+            <column name="tpemis" length="1" />
+        </property>
+    </class>
+    <query name="nfe.procuraInutilizacoesGeradas">
+	<![CDATA[
+            from InutNfe inf
+            where 
+            inf.cnpj = :_cnpj
+            and inf.pe = :_pe
+            and inf.xmlInutilizado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraInutilizacaoAssinada">
+	<![CDATA[
+            from InutNfe inf
+            where 
+            inf.cnpj = :_cnpj
+            and inf.pe = :_pe
+            and inf.xmlInutilizado = '1'
+    ]]>
+	</query>
+    <query name="nfe.procuraInutilizacaoValida">
+	<![CDATA[
+            from InutNfe inf
+            where 
+            inf.cnpj = :_cnpj
+            and inf.pe = :_pe
+            and inf.xmlInutilizado = '2'
+    ]]>
+	</query>
+    <query name="nfe.procuraInutilizacaoRetornoPendente">
+	<![CDATA[
+            from InutNfe inf
+            where 
+            inf.cnpj = :_cnpj
+            and inf.pe = :_pe
+            and inf.xmlInutilizado = '4'
+    ]]>
+	</query>
+</hibernate-mapping>

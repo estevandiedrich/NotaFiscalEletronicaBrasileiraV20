@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103
+END
+enviCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/enviCte_v1.03.xsd
+END
+Alteracoes_v1.03.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/Alteracoes_v1.03.pdf
+END
+consStatServTiposBasico_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/consStatServTiposBasico_v1.03.xsd
+END
+procCTe_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/procCTe_v1.03.xsd
+END
+procInutCTe_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/procInutCTe_v1.03.xsd
+END
+cancCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/cancCte_v1.03.xsd
+END
+cancCteTiposBasico_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/cancCteTiposBasico_v1.03.xsd
+END
+consReciCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/consReciCte_v1.03.xsd
+END
+consReciCteTiposBasico_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/consReciCteTiposBasico_v1.03.xsd
+END
+retConsStatServCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/retConsStatServCte_v1.03.xsd
+END
+tiposGeralCTe_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/tiposGeralCTe_v1.03.xsd
+END
+retEnviCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/retEnviCte_v1.03.xsd
+END
+inutCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/inutCte_v1.03.xsd
+END
+inutCteTiposBasico_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/inutCteTiposBasico_v1.03.xsd
+END
+cte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/cte_v1.03.xsd
+END
+cteTiposBasico_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/cteTiposBasico_v1.03.xsd
+END
+retCancCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/retCancCte_v1.03.xsd
+END
+retConsReciCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/retConsReciCte_v1.03.xsd
+END
+consSitCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/consSitCte_v1.03.xsd
+END
+consSitCteTiposBasico_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/consSitCteTiposBasico_v1.03.xsd
+END
+procCancCTe_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/procCancCTe_v1.03.xsd
+END
+retInutCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/retInutCte_v1.03.xsd
+END
+retConsSitCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/retConsSitCte_v1.03.xsd
+END
+xmldsig-core-schema_v1.01.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/xmldsig-core-schema_v1.01.xsd
+END
+consStatServCte_v1.03.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_CTe_103/consStatServCte_v1.03.xsd
+END

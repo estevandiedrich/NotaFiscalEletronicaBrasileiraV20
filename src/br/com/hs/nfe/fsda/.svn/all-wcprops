@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/fsda
+END
+PreparaFSDAThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/fsda/PreparaFSDAThread.java
+END
+EnvFsdaReenviaNFeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/fsda/EnvFsdaReenviaNFeThread.java
+END
+FSDAProcThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/fsda/FSDAProcThread.java
+END

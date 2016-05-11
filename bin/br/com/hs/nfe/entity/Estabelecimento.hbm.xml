@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.Estabelecimento" table="estabelecimento">
+	<!-- 
+	Campos do banco de dados
+	 -->
+	 <!-- Codigo Estabelecimento -->
+      <id name="codEstabelecimento" type="int" column="codestabelecimento">
+          <generator class="native" />
+      </id>
+      <property name="enviNFeTXT" type="string">
+          <column name="envinfetxt" not-null="true" />
+      </property>
+      <property name="consReciNFeTXT" type="string">
+          <column name="consrecinfetxt" not-null="true" />
+      </property>
+      <property name="enviNFeXML" type="string">
+          <column name="envinfexml" not-null="true" />
+      </property>
+      
+      <property name="enviNFeXMLAssinados" type="string">
+          <column name="envinfexmlassinados" not-null="true" />
+      </property>
+      <property name="enviNFeXMLValidos" type="string">
+          <column name="envinfexmlvalidos" not-null="true" />
+      </property>
+      <property name="enviNFeXMLInvalidos" type="string">
+          <column name="envinfexmlinvalidos" not-null="true" />
+      </property>
+      <property name="enviNFeXMLEnviados" type="string">
+          <column name="envinfexmlenviados" not-null="true" />
+      </property>
+      <property name="enviNFeXMLAutorizados" type="string">
+          <column name="envinfexmlautorizados" not-null="true" />
+      </property>
+      <property name="enviNFeXMLDenegados" type="string">
+          <column name="envinfexmldenegados" not-null="true" />
+      </property>
+      <property name="enviNFeXMLProcessados" type="string">
+          <column name="envinfexmlprocessados" not-null="true" />
+      </property>
+      <property name="enviarEmail" type="string">
+          <column name="enviaremail" not-null="true" />
+      </property>
+      <property name="servidorEmail" type="string">
+          <column name="servidoremail" not-null="true" />
+      </property>
+      <property name="portaEmail" type="string">
+          <column name="portaemail" not-null="true" />
+      </property>
+      <property name="assuntoEmail" type="string">
+          <column name="assuntoemail" not-null="true" />
+      </property>
+      <property name="emailDe" type="string">
+          <column name="emailde" not-null="true" />
+      </property>
+      <property name="emailPara" type="string">
+          <column name="emailpara" not-null="true" />
+      </property>
+      <property name="usuarioEmail" type="string">
+          <column name="usuarioemail" not-null="true" />
+      </property>
+      <property name="senhaEmail" type="string">
+          <column name="senhaemail" not-null="true" />
+      </property>
+      <property name="jks" type="string">
+          <column name="jks" not-null="true" />
+      </property>
+      <property name="jksPassword" type="string">
+          <column name="jkspassword" not-null="true" />
+      </property>
+      <property name="pfxPassword" type="string">
+          <column name="pfxpassword" not-null="true" />
+      </property>
+      <property name="pfxAlias" type="string">
+          <column name="pfxalias" not-null="true" />
+      </property>
+      <property name="gerarDanfe" type="string">
+          <column name="gerardanfe" not-null="true" />
+      </property>
+      <property name="danfe" type="string">
+          <column name="danfe" not-null="true" />
+      </property>
+      <property name="imprimirDanfe" type="string">
+          <column name="imprimirdanfe" not-null="true" />
+      </property>
+      <property name="impressora" type="string">
+          <column name="impressora" not-null="true" />
+      </property>
+      <property name="logoDanfe" type="string">
+          <column name="logodanfe" not-null="true" />
+      </property>
+      <property name="cnpj" type="string">
+          <column name="cnpj" not-null="true" />
+      </property>
+      <property name="compactarXML" type="string">
+          <column name="compactarxml" not-null="true" />
+      </property>
+      <property name="xmlCompactado" type="string">
+          <column name="xmlcompactado" not-null="true" />
+      </property>
+      <property name="pe" type="string">
+          <column name="pe" not-null="true" />
+      </property>
+      <property name="enviNFeThreadSleep" type="string">
+          <column name="envinfethreadsleep" not-null="true" />
+      </property>
+      <property name="corpoEmail" type="string">
+          <column name="corpoemail" not-null="true" />
+      </property>
+      <property name="numeroCopias" type="string">
+          <column name="numerocopias" not-null="true" />
+      </property>
+      <property name="cancNFeTXT" type="string">
+          <column name="cancnfetxt" not-null="true" />
+      </property>
+      <property name="cancNFeXML" type="string">
+          <column name="cancnfexml" not-null="true" />
+      </property>
+      <property name="cancNFeXMLAssinados" type="string">
+          <column name="cancnfexmlassinados" not-null="true" />
+      </property>
+      
+      <property name="cancNFeXMLValidos" type="string">
+          <column name="cancnfexmlvalidos" not-null="true" />
+      </property>
+      <property name="cancNFeXMLInvalidos" type="string">
+          <column name="cancnfexmlinvalidos" not-null="true" />
+      </property>
+      <property name="cancNFeXMLAutorizados" type="string">
+          <column name="cancnfexmlautorizados" not-null="true" />
+      </property>
+      <property name="cancNFeXMLDenegados" type="string">
+          <column name="cancnfexmldenegados" not-null="true" />
+      </property>
+      <property name="retCancNFeTXT" type="string">
+          <column name="retcancnfetxt" not-null="true" />
+      </property>
+      <property name="cancNFeXMLProcessados" type="string">
+          <column name="cancnfexmlprocessados" not-null="true" />
+      </property>
+      <property name="danfeCanc" type="string">
+          <column name="danfecanc" not-null="true" />
+      </property>
+      <property name="inutNFeTXT" type="string">
+          <column name="inutnfetxt" not-null="true" />
+      </property>
+      <property name="inutNFeXML" type="string">
+          <column name="inutnfexml" not-null="true" />
+      </property>
+      <property name="inutNFeXMLAssinados" type="string">
+          <column name="inutnfexmlassinados" not-null="true" />
+      </property>
+      
+      <property name="inutNFeXMLValidos" type="string">
+          <column name="inutnfexmlvalidos" not-null="true" />
+      </property>
+      <property name="inutNFeXMLInvalidos" type="string">
+          <column name="inutnfexmlinvalidos" not-null="true" />
+      </property>
+      <property name="inutNFeXMLAutorizados" type="string">
+          <column name="inutnfexmlautorizados" not-null="true" />
+      </property>
+      <property name="inutNFeXMLDenegados" type="string">
+          <column name="inutnfexmldenegados" not-null="true" />
+      </property>
+      <property name="retInutNFeTXT" type="string">
+          <column name="retinutnfetxt" not-null="true" />
+      </property>
+      <property name="descricao" type="string">
+          <column name="descricao" not-null="true" />
+      </property>
+      <property name="assuntoEmailCancelamento" type="string">
+          <column name="assuntoemailcancelamento"/>
+      </property>
+      <property name="corpoEmailCancelamento" type="string">
+          <column name="corpoemailcancelamento"/>
+      </property>
+      <property name="envDpecXML" type="string">
+          <column name="envdpecxml" not-null="true" />
+      </property>
+      <property name="envDpecXMLAssinados" type="string">
+          <column name="envdpecxmlassinados" not-null="true" />
+      </property>
+      <property name="envDpecXMLValidos" type="string">
+          <column name="envdpecxmlvalidos" not-null="true" />
+      </property>
+      <property name="envDpecXMLInvalidos" type="string">
+          <column name="envdpecxmlinvalidos" not-null="true" />
+      </property>
+      <property name="envDpecXMLAutorizados" type="string">
+          <column name="envdpecxmlautorizados" not-null="true" />
+      </property>
+      <property name="envDpecXMLDenegados" type="string">
+          <column name="envdpecxmldenegados" not-null="true" />
+      </property>
+      <property name="envDpecXMLProcessados" type="string">
+          <column name="envdpecxmlprocessados" not-null="true" />
+      </property>
+      
+      <property name="envDpecXMLEnviados" type="string">
+          <column name="envdpecxmlenviados" not-null="true" />
+      </property>
+      <property name="envDpecXMLCompactados" type="string">
+          <column name="envdpecxmlcompactados" not-null="true" />
+      </property>
+      <property name="envDpecDanfe" type="string">
+          <column name="envdpecdanfe" not-null="true" />
+      </property>
+      <property name="envFsdaDanfe" type="string">
+          <column name="envfsdadanfe" not-null="true" />
+      </property>
+      <property name="envFsdaXMLProcessados" type="string">
+          <column name="envfsdaxmlprocessados" not-null="true" />
+      </property>
+      <property name="envFsdaXMLCompactados" type="string">
+          <column name="envfsdaxmlcompactados" not-null="true" />
+      </property>
+      <property name="ativarDpecAutomatico" type="java.lang.Character">
+          <column name="ativardpecautomatico" length="1" />
+      </property>
+      <property name="ativarFsdaAutomatico" type="java.lang.Character">
+          <column name="ativarfsdaautomatico" length="1" />
+      </property>
+      <property name="imprimirDanfeDpecReenvio" type="java.lang.Character">
+          <column name="imprimirdanfedpecreenvio" length="1" />
+      </property>
+      <property name="imprimirDanfeFsdaReenvio" type="java.lang.Character">
+          <column name="imprimirdanfefsdareenvio" length="1" />
+      </property>
+      <property name="impressoraFsda" type="string">
+          <column name="impressorafsda"  not-null="true" />
+      </property>
+      <property name="orientacaoDanfe" type="java.lang.Character">
+          <column name="orientacaodanfe"  length="1" />
+      </property>
+      <property name="urlRMI" type="string">
+          <column name="urlrmi"  not-null="true" />
+      </property>
+      <property name="envEventoTXT" type="string">
+          <column name="enveventotxt" />
+      </property>
+      <property name="envEventoXML" type="string">
+          <column name="enveventoxml" />
+      </property>
+      <property name="envEventoXMLAssinados" type="string">
+          <column name="enveventoxmlassinados" />
+      </property>
+      <property name="envEventoXMLValidos" type="string">
+          <column name="enveventoxmlvalidos" />
+      </property>
+      <property name="envEventoXMLInvalidos" type="string">
+          <column name="enveventoxmlinvalidos" />
+      </property>
+      <property name="envEventoXMLVinculado" type="string">
+          <column name="enveventoxmlvinculado" />
+      </property>
+      <property name="envEventoXMLRejeitado" type="string">
+          <column name="enveventoxmlrejeitado" />
+      </property>
+      <property name="retEnvEventoTXT" type="string">
+          <column name="retenveventotxt" />
+      </property>
+      <property name="razaoSocial" type="string">
+          <column name="razaosocial" />
+      </property>
+      <property name="imprimirFSDAManualmente" type="java.lang.Character">
+          <column name="imprimirfsdamanualmente"  length="1" />
+      </property>
+      <property name="tipoCertificado" type="string">
+          <column name="tipocertificado" />
+      </property>
+	</class>
+	<query name="estabelecimento.findByCnpjPe">
+	<![CDATA[
+            from Estabelecimento e
+            where e.cnpj = :_cnpj
+            and e.pe = :_pe
+    ]]>
+	</query>
+	<query name="estabelecimento.getEstabelecimentos">
+	<![CDATA[
+            from Estabelecimento e
+    ]]>
+	</query>
+ </hibernate-mapping>

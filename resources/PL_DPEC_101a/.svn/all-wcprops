@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_DPEC_101a
+END
+consDPEC_v1.01.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_DPEC_101a/consDPEC_v1.01.xsd
+END
+envDPEC_v1.01.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_DPEC_101a/envDPEC_v1.01.xsd
+END
+leiauteDPEC_v1.01.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_DPEC_101a/leiauteDPEC_v1.01.xsd
+END
+retDPEC_v1.01.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_DPEC_101a/retDPEC_v1.01.xsd
+END
+retConsDPEC_v1.01.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_DPEC_101a/retConsDPEC_v1.01.xsd
+END
+xmldsig-core-schema_v1.01.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/resources/PL_DPEC_101a/xmldsig-core-schema_v1.01.xsd
+END

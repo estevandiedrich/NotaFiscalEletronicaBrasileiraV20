@@ -1,0 +1,785 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 23, 2011 11:18:04 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.Nfe" table="nfe" schema="public">
+        <id name="chaveAcesso" type="string">
+            <column name="chaveAcesso" length="47" />
+            <generator class="assigned" />
+        </id>
+        <property name="txtValido" type="java.lang.Character">
+            <column name="txtValido" length="1" />
+        </property>
+        <property name="xmlAssinado" type="java.lang.Character">
+            <column name="xmlAssinado" length="1" />
+        </property>
+        <property name="xmlValido" type="java.lang.Character">
+            <column name="xmlValido" length="1" />
+        </property>
+        <property name="nrec" type="string">
+            <column name="nRec" length="15" />
+        </property>
+        <property name="xmlEnviado" type="java.lang.Character">
+            <column name="xmlEnviado" length="1" />
+        </property>
+        <property name="nprot" type="string">
+            <column name="nProt" length="15" />
+        </property>
+        <property name="cstat" type="string">
+            <column name="cStat" length="3" />
+        </property>
+        <property name="xmotivo" type="string">
+            <column name="xMotivo" />
+        </property>
+        <property name="danfeImpresso" type="java.lang.Character">
+            <column name="danfeImpresso" length="1" />
+        </property>
+        <property name="emailEnviado" type="java.lang.Character">
+            <column name="emailEnviado" length="1" />
+        </property>
+        <property name="danfeGerado" type="java.lang.Character">
+            <column name="danfeGerado" length="1" />
+        </property>
+        <property name="cnpj" type="string">
+            <column name="cnpj" length="14" />
+        </property>
+        <property name="txtRetornoGerado" type="java.lang.Character">
+            <column name="txtRetornoGerado" length="1" />
+        </property>
+        <property name="txtRecebido" type="java.lang.Character">
+            <column name="txtRecebido" length="1" />
+        </property>
+        <property name="xmlProcessado" type="java.lang.Character">
+            <column name="xmlProcessado" length="1" />
+        </property>
+        <property name="dhRecbto" type="timestamp">
+            <column name="dhRecbto" length="29" />
+        </property>
+        <property name="xmlCompactado" type="java.lang.Character">
+            <column name="xmlCompactado" length="1" />
+        </property>
+        <property name="pe" type="string">
+            <column name="pe" length="255" />
+        </property>
+        <property name="serie" type="int">
+            <column name="serie"/>
+        </property>
+        <property name="nnf" type="int">
+            <column name="nnf" />
+        </property>
+        <property name="xmlCancelado" type="java.lang.Character">
+            <column name="xmlCancelado" length="1" />
+        </property>
+        <property name="dest" type="string">
+            <column name="dest" length="14" />
+        </property>
+        <property name="codEstabelecimento" type="int">
+            <column name="codestabelecimento"/>
+        </property>
+        <property name="xjust" type="string">
+            <column name="xjust" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" />
+        </property>
+        <property name="numeroCopias" type="string">
+            <column name="numerocopias" length="2"/>
+        </property>
+        <property name="tpEmis" type="java.lang.Character">
+            <column name="tpemis" length="1" />
+        </property>
+        <property name="dpecGerado" type="java.lang.Character">
+            <column name="dpecgerado" length="1" />
+        </property>
+        <property name="dpecAssinado" type="java.lang.Character">
+            <column name="dpecassinado" length="1" />
+        </property>
+        <property name="dpecValido" type="java.lang.Character">
+            <column name="dpecvalido" length="1" />
+        </property>
+        <property name="dpecEnviado" type="java.lang.Character">
+            <column name="dpecenviado" length="1" />
+        </property>
+        <property name="dpecProcessado" type="java.lang.Character">
+            <column name="dpecprocessado" length="1" />
+        </property>
+        <property name="tpAmb" type="java.lang.Character">
+            <column name="tpamb" length="1" />
+        </property>
+        <property name="dpecCompactado" type="java.lang.Character">
+            <column name="dpeccompactado" length="1" />
+        </property>
+        <property name="dpecDanfeGerado" type="java.lang.Character">
+            <column name="dpecdanfegerado" length="1" />
+        </property>
+        <property name="fsdaPreparado" type="java.lang.Character">
+            <column name="fsdapreparado" length="1" />
+        </property>
+        <property name="fsdaProcessado" type="java.lang.Character">
+            <column name="fsdaprocessado" length="1" />
+        </property>
+        <property name="fsdaDanfeGerado" type="java.lang.Character">
+            <column name="fsdadanfegerado" length="1" />
+        </property>
+        <property name="fsdaCompactado" type="java.lang.Character">
+            <column name="fsdaCompactado" length="1" />
+        </property>
+        <property name="txtRetornoDpecGerado" type="java.lang.Character">
+            <column name="txtretornodpecgerado" length="1" />
+        </property>
+        <property name="dpecEmailEnviado" type="java.lang.Character">
+            <column name="dpecemailenviado" length="1" />
+        </property>
+        <property name="cuf" type="string">
+            <column name="cuf" length="2" />
+        </property>
+        <property name="fsdaImpresso" type="java.lang.Character">
+            <column name="fsdaimpresso" length="1" />
+        </property>
+        <property name="zipEnviado" type="java.lang.Character">
+            <column name="zipenviado" length="1" />
+        </property>
+        <property name="consultaEventos" type="java.lang.Character">
+            <column name="consultaeventos" length="1" />
+        </property>
+        <property name="checksum" type="string">
+            <column name="checksum"/>
+        </property>
+        <property name="xmlPersistido" type="java.lang.Character">
+            <column name="xmlpersistido" length="1" />
+        </property>
+        <property name="cancelarNota" type="java.lang.Character">
+            <column name="cancelarnota" length="1" />
+        </property>
+    </class>
+    <query name="nfe.findByChaveAcesso">
+	<![CDATA[
+            from Nfe nf
+            where nf.chaveAcesso = :_chaveAcesso
+    ]]>
+	</query>
+    <query name="nfe.findByCnpjPE">
+	<![CDATA[
+            from Nfe nf
+            where nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.dhRecbto > CURRENT_DATE
+            order by nf.dhRecbto desc
+    ]]>
+	</query>
+    <query name="nfe.procuraNotasGeradas">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraNotasAssinadas">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraNotasCancelamento">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.cancelarNota = '1'
+    ]]>
+	</query>
+	<query name="nfe.procuraNotasValidas">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.xmlEnviado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraNotasEnviadas">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+			and nf.xmlEnviado = '1'
+            and (nf.cstat = '103' or nf.cstat = '105' or nf.cstat = '108')
+    ]]>
+	</query>
+	<query name="nfe.procuraNotasDuplicadas">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+			and nf.xmlEnviado = '1'
+            and nf.cstat = '204'
+    ]]>
+	</query>
+	<query name="nfe.procuraNotasAutorizadas">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraNotasProcessadas">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '1'
+            and nf.xmlPersistido = '1'
+            and nf.xmlCompactado = '1'
+            and nf.txtRetornoGerado = '1'
+            and nf.zipEnviado = '1'
+            and nf.danfeGerado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraDanfeGerado">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '1'
+            and nf.xmlPersistido = '1'
+            and nf.xmlCompactado = '1'
+            and nf.txtRetornoGerado = '1'
+            and nf.zipEnviado = '1'
+            and nf.danfeGerado = '1'
+            and nf.emailEnviado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraEmailsEnviados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '1'
+            and nf.xmlPersistido = '1'
+            and nf.xmlCompactado = '1'
+            and nf.txtRetornoGerado = '1'
+            and nf.zipEnviado = '1'
+            and nf.danfeGerado = '1'
+            and nf.emailEnviado = '1'
+            and nf.danfeImpresso = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraXMLRetornoPendente">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '1'
+            and nf.xmlPersistido = '1'
+            and nf.xmlCompactado = '1'
+            and nf.zipEnviado = '1'
+            and nf.txtRetornoGerado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraCompactacaoPendente">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '1'
+            and nf.xmlPersistido = '1'
+            and nf.xmlCompactado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraPersistenciaPendente">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '1'            
+            and nf.xmlPersistido = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraZipNaoEnviados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.txtValido = '1'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.cstat = '100'
+            and nf.xmlProcessado = '1'
+            and nf.xmlCompactado = '1'
+            and nf.xmlPersistido = '1'
+            and nf.zipEnviado = '0'
+    ]]>
+	</query>
+	<query name="nfe.procuraDpecRetornoPendente">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and nf.txtRetornoDpecGerado = '0'
+            and nf.cstat = '124'
+    ]]>
+	</query>
+	<query name="nfe.procuraCancelamentoPendente">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.cstat = '100'
+            and nf.xmlCancelado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraCancelamentoAssinado">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.cstat = '100'
+            and nf.xmlCancelado = '1'
+    ]]>
+	</query>
+    <query name="nfe.procuraCancelamentoValido">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.cstat = '100'
+            and nf.xmlCancelado = '2'
+    ]]>
+	</query>
+    <query name="nfe.procuraCancelamentoRetornoPendente">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.cstat = '101'
+            and nf.xmlCancelado = '4'
+    ]]>
+	</query>
+    <query name="nfe.procuraCancelamentoAutorizado">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.cstat = '101'
+            and nf.xmlCancelado = '6'
+    ]]>
+    </query>
+    <query name="nfe.procuraCancelamentosProcessados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.cstat = '101'
+            and nf.xmlCancelado = '7'
+    ]]>
+	</query>
+    <query name="nfe.procuraDpec">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '1'            
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraPedidoDpec">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'            
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraFsda">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'            
+            and nf.xmlEnviado = '3'
+            and nf.fsdaPreparado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraFsdaPreparados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '5'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'            
+            and nf.xmlEnviado = '3'
+            and nf.fsdaPreparado = '1'
+            and nf.fsdaProcessado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraFsdaProcessados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '5'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'            
+            and nf.xmlEnviado = '3'
+            and nf.fsdaPreparado = '1'
+            and nf.fsdaProcessado = '1'
+            and nf.fsdaCompactado = '1'
+            and nf.zipEnviado = '1'
+            and nf.fsdaDanfeGerado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraZipFsdaNaoEnviados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '5'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'            
+            and nf.xmlEnviado = '3'
+            and nf.fsdaPreparado = '1'
+            and nf.fsdaProcessado = '1'
+            and nf.fsdaCompactado = '1'
+            and nf.zipEnviado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraZipFsdaEnvioManual">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '5'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'            
+            and nf.xmlEnviado = '3'
+            and nf.fsdaPreparado = '1'
+            and nf.fsdaProcessado = '1'
+            and nf.fsdaCompactado = '1'
+            and nf.zipEnviado = '2'
+    ]]>
+	</query>
+    <query name="nfe.procuraDpecGerados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraDpecAssinados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraDpecValidos">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraDpecEnviados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and (nf.cstat = '485')
+    ]]>
+	</query>
+    <query name="nfe.procuraDpecAutorizados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and nf.txtRetornoDpecGerado = '1'
+            and nf.dpecProcessado = '0'
+            and nf.cstat = '124'
+    ]]>
+	</query>
+    <query name="nfe.procuraNotasReenviar">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and nf.dpecProcessado = '1'
+            and nf.dpecCompactado = '1'
+            and nf.dpecDanfeGerado = '1'
+            and nf.zipEnviado = '1'
+            and nf.txtRetornoDpecGerado = '1'
+            and nf.dpecEmailEnviado = '1'
+            and nf.cstat = '124'
+    ]]>
+	</query>
+    <query name="nfe.procuraNotasReenviarFsda">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '5'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.xmlEnviado = '3'
+            and nf.zipEnviado = '1'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.fsdaPreparado = '1'
+            and nf.fsdaProcessado = '1'
+            and nf.fsdaCompactado = '1'
+            and nf.fsdaDanfeGerado = '1'
+            and nf.fsdaImpresso = '1'
+            and nf.cstat = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraFsdaDanfeGerados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '5'
+            and nf.xmlAssinado = '1'
+            and nf.xmlValido = '1'
+            and nf.xmlEnviado = '3'
+            and nf.zipEnviado = '1'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.fsdaPreparado = '1'
+            and nf.fsdaProcessado = '1'
+            and nf.fsdaCompactado = '1'
+            and nf.fsdaDanfeGerado = '1'
+            and nf.fsdaImpresso = '0'
+            and nf.cstat = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraCompactacaoPendenteDpec">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and nf.dpecProcessado = '1'
+            and nf.txtRetornoDpecGerado = '1'
+            and nf.dpecCompactado = '0'
+            and nf.cstat = '124'
+    ]]>
+	</query>
+    <query name="nfe.procuraZipDpecNaoEnviados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and nf.dpecProcessado = '1'
+            and nf.txtRetornoDpecGerado = '1'
+            and nf.dpecCompactado = '1'
+            and nf.zipEnviado = '0'
+            and nf.cstat = '124'
+    ]]>
+	</query>
+    <query name="nfe.procuraCompactacaoPendenteFsda">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '5'
+            and nf.xmlEnviado = '3'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.fsdaPreparado = '1'
+            and nf.fsdaProcessado = '1'
+            and nf.fsdaCompactado = '0'
+            and nf.cstat = '0'
+    ]]>
+	</query>
+    <query name="nfe.procuraDpecProcessados">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and nf.dpecProcessado = '1'
+            and nf.dpecCompactado = '1'
+            and nf.zipEnviado = '1'
+            and nf.txtRetornoDpecGerado = '1'
+            and nf.dpecDanfeGerado = '0'
+            and nf.cstat = '124'
+    ]]>
+	</query>
+    <query name="nfe.procuraDpecEmailPendente">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.tpEmis = '4'
+            and nf.xmlEnviado = '2'
+            and nf.dpecGerado = '1'
+            and nf.dpecAssinado = '1'
+            and nf.dpecValido = '1'
+            and nf.dpecEnviado = '1'
+            and nf.dpecProcessado = '1'
+            and nf.dpecCompactado = '1'
+            and nf.zipEnviado = '1'
+            and nf.txtRetornoDpecGerado = '1'
+            and nf.dpecDanfeGerado = '1'
+            and nf.dpecEmailEnviado = '0'
+            and nf.cstat = '124'
+    ]]>
+	</query>
+	<query name="nfe.consultaEventos">
+	<![CDATA[
+            from Nfe nf
+            where 
+            nf.cnpj = :_cnpj
+            and nf.pe = :_pe
+            and nf.consultaEventos = '1'
+    ]]>
+	</query>
+</hibernate-mapping>

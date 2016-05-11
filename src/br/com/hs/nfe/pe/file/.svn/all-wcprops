@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pe/file
+END
+FileSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pe/file/FileSender.java
+END
+DpecSenderThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pe/file/DpecSenderThread.java
+END
+FileReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pe/file/FileReceiver.java
+END
+FsdaManualSenderThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pe/file/FsdaManualSenderThread.java
+END
+FsdaSenderThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pe/file/FsdaSenderThread.java
+END
+FileSenderThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/pe/file/FileSenderThread.java
+END

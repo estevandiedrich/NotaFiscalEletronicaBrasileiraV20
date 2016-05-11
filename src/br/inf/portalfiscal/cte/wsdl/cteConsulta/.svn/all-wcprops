@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/cte/wsdl/cteConsulta
+END
+CteCabecMsgDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/cte/wsdl/cteConsulta/CteCabecMsgDocument.java
+END
+CteCabecMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/cte/wsdl/cteConsulta/CteCabecMsg.java
+END
+CteConsultaCTResultDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/cte/wsdl/cteConsulta/CteConsultaCTResultDocument.java
+END
+CteDadosMsgDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/inf/portalfiscal/cte/wsdl/cteConsulta/CteDadosMsgDocument.java
+END

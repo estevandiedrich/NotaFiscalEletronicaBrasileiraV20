@@ -1,0 +1,103 @@
+<modify-entry
+   name="wrapper.exe"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/wrapper.exe.svn-base"
+   name=".svn/prop-base/svn-96648D5A"/>
+<readonly
+   name=".svn/prop-base/wrapper.exe.svn-base"/>
+<modify-entry
+   committed-rev="95"
+   committed-date="2012-07-24T19:06:24.689208Z"
+   name="wrapper.exe"
+   last-author="felipe.pereira"
+   uuid="e443dee1-f7f6-4648-b3e2-a47c5c363af9"/>
+<modify-wcprop
+   name="wrapper.exe"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/svn/eurekatablet/!svn/ver/95/NotaFiscalEletronicaBrasileiraV20/exec/wrapper.exe"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="wrapper.exe"
+   url="https://subversion.assembla.com/svn/eurekatablet/NotaFiscalEletronicaBrasileiraV20/exec/wrapper.exe"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="98"/>
+<cp-and-translate
+   dest="wrapper.exe"
+   name=".svn/tmp/text-base/wrapper.exe.svn-base"/>
+<mv
+   dest=".svn/text-base/wrapper.exe.svn-base"
+   name=".svn/tmp/text-base/wrapper.exe.svn-base"/>
+<readonly
+   name=".svn/text-base/wrapper.exe.svn-base"/>
+<modify-entry
+   name="wrapper.exe"
+   checksum="e2e47486f9d39145daea03d007587a02"/>
+<modify-entry
+   name="wrapper.exe"
+   text-time="working"/>
+<modify-entry
+   name="wrapper.exe"
+   working-size="working"/>
+<modify-entry
+   name="wrapper_install.exe"
+   present-props=""
+   has-prop-mods="false"
+   has-props="true"/>
+<mv
+   dest=".svn/prop-base/wrapper_install.exe.svn-base"
+   name=".svn/prop-base/svn-96CBED68"/>
+<readonly
+   name=".svn/prop-base/wrapper_install.exe.svn-base"/>
+<modify-entry
+   committed-rev="98"
+   committed-date="2012-07-25T21:05:00.874104Z"
+   name="wrapper_install.exe"
+   last-author="felipe.pereira"
+   uuid="e443dee1-f7f6-4648-b3e2-a47c5c363af9"/>
+<modify-wcprop
+   name="wrapper_install.exe"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/svn/eurekatablet/!svn/ver/98/NotaFiscalEletronicaBrasileiraV20/exec/wrapper_install.exe"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="wrapper_install.exe"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="98"/>
+<cp-and-translate
+   dest="wrapper_install.exe"
+   name=".svn/tmp/svn-96650D61"/>
+<mv
+   dest=".svn/text-base/wrapper_install.exe.svn-base"
+   name=".svn/tmp/svn-96650D61"/>
+<readonly
+   name=".svn/text-base/wrapper_install.exe.svn-base"/>
+<modify-entry
+   name="wrapper_install.exe"
+   checksum="e2e47486f9d39145daea03d007587a02"/>
+<modify-entry
+   name="wrapper_install.exe"
+   text-time="working"/>
+<modify-entry
+   name="wrapper_install.exe"
+   working-size="working"/>
+<rm
+   name=".svn/tmp/svn-96650D61"/>
+<modify-entry
+   committed-rev="98"
+   committed-date="2012-07-25T21:05:00.874104Z"
+   name=""
+   last-author="felipe.pereira"
+   uuid="e443dee1-f7f6-4648-b3e2-a47c5c363af9"/>
+<modify-wcprop
+   name=""
+   propname="svn:wc:ra_dav:version-url"
+   propval="/svn/eurekatablet/!svn/ver/98/NotaFiscalEletronicaBrasileiraV20/exec"/>

@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+# SMX Init Script
+#
+SMX_HOME=/opt/NFe/ServiceMix
+
+case "$1" in
+### START ###
+	start)		/etc/init.d/mysql status > /dev/null
+						if [[ "$?" -eq 3 ]]; then # testa se o mysql ja esta rodando
+							/etc/init.d/mysql start 
+							sleep 10 
+						fi
+						if [[ -e $SMX_HOME/servicemix.pid ]]; then # testa se existe um servicemix rodando
+							echo "ServiceMix already running"
+							exit 2
+						fi
+						$SMX_HOME/bin/servicemix  >> /opt/NFe/ServiceMix/data/log/wrapper.log 2> /dev/null &
+						echo $! > $SMX_HOME/servicemix.pid
+						echo "ServiceMix Started"
+						;;
+
+### STOP ###
+	stop)			read pid < $SMX_HOME/servicemix.pid
+						kill $pid
+						rm $SMX_HOME/servicemix.pid
+						echo "ServiceMix Stopped"
+						;;
+
+### FORCE QUIT
+	kill) 		echo "Forcing ServiceMix to stop"
+						ps -ef | grep servicemix | kill -9 `awk '{ print $2 }'` 2> /dev/null
+						;;
+
+### RESTART ###
+	restart)	$0 stop
+						$0 start
+						;;
+
+### USAGE ###
+	*)				echo "Usage: $0 (stop|kill|start|restart)"
+						exit 1
+						;;
+esac
+
+exit 0
+

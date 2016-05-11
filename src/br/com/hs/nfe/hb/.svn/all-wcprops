@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb
+END
+GenericCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/GenericCreateCommand.java
+END
+EventoUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/EventoUpdateCommand.java
+END
+EstabelecimentoUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/EstabelecimentoUpdateCommand.java
+END
+SistemaUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/SistemaUpdateCommand.java
+END
+NFeEntradaUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/NFeEntradaUpdateCommand.java
+END
+UsuarioDeleteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/UsuarioDeleteCommand.java
+END
+InutNFeUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/InutNFeUpdateCommand.java
+END
+NFeFileUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/NFeFileUpdateCommand.java
+END
+NFeUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/NFeUpdateCommand.java
+END
+UsuarioCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/UsuarioCreateCommand.java
+END
+CTeUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/CTeUpdateCommand.java
+END
+UsuarioEstabelecimentoUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/UsuarioEstabelecimentoUpdateCommand.java
+END
+GenericUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/GenericUpdateCommand.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/Command.java
+END
+EventoDeleteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/EventoDeleteCommand.java
+END
+EventoCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/EventoCreateCommand.java
+END
+EstabelecimentoDeleteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/EstabelecimentoDeleteCommand.java
+END
+EstabelecimentoCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/EstabelecimentoCreateCommand.java
+END
+SistemaDeleteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/SistemaDeleteCommand.java
+END
+SistemaCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/SistemaCreateCommand.java
+END
+Persistencia.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/Persistencia.java
+END
+UsuarioUpdateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/UsuarioUpdateCommand.java
+END
+NFeEntradaCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/NFeEntradaCreateCommand.java
+END
+NFeCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/NFeCreateCommand.java
+END
+InutNFeCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/InutNFeCreateCommand.java
+END
+NFeFileCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/NFeFileCreateCommand.java
+END
+UsuarioEstabelecimentoDeleteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/UsuarioEstabelecimentoDeleteCommand.java
+END
+GenericDeleteCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/GenericDeleteCommand.java
+END
+CTeCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/CTeCreateCommand.java
+END
+UsuarioEstabelecimentoCreateCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/hb/UsuarioEstabelecimentoCreateCommand.java
+END

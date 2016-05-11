@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/compiler
+END
+Txt2XmlInutNFeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/compiler/Txt2XmlInutNFeParser.java
+END
+Txt2XmlEnvEventoParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/compiler/Txt2XmlEnvEventoParser.java
+END
+Txt2XmlEnviNFeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/45/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/compiler/Txt2XmlEnviNFeParser.java
+END
+Txt2XmlCancNFeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/compiler/Txt2XmlCancNFeParser.java
+END
+Txt2XmlEnviCTeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/compiler/Txt2XmlEnviCTeParser.java
+END
+TxtA32XmlEnviNFeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/compiler/TxtA32XmlEnviNFeParser.java
+END

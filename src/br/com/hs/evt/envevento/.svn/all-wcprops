@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento
+END
+EnvEventoConfirmacaoRecebimentoThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento/EnvEventoConfirmacaoRecebimentoThread.java
+END
+EnvEventoThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento/EnvEventoThread.java
+END
+ConsSitNFeEntrada21Thread.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento/ConsSitNFeEntrada21Thread.java
+END
+EnvEventoAssinadorThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento/EnvEventoAssinadorThread.java
+END
+ConsSitNFe21Thread.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento/ConsSitNFe21Thread.java
+END
+EnvEventoValidadorThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento/EnvEventoValidadorThread.java
+END
+EnvEventoEnviadorThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/evt/envevento/EnvEventoEnviadorThread.java
+END

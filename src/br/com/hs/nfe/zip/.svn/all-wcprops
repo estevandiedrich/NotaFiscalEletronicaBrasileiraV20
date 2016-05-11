@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/zip
+END
+Zip.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/zip/Zip.java
+END
+UnZip.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/zip/UnZip.java
+END
+DescompactaAnexoEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/zip/DescompactaAnexoEmail.java
+END
+CompactaNFeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/zip/CompactaNFeThread.java
+END
+CompactaDpecThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/zip/CompactaDpecThread.java
+END
+CompactaFsdaThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/zip/CompactaFsdaThread.java
+END

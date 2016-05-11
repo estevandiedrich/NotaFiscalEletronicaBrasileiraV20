@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue
+END
+XMLDescompactadosCanc.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLDescompactadosCanc.java
+END
+MessagesChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/MessagesChannel.java
+END
+DpecAutorizados.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecAutorizados.java
+END
+EmailsEnviados.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/EmailsEnviados.java
+END
+DanfesGerados.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DanfesGerados.java
+END
+XMLEntradaProcessados.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLEntradaProcessados.java
+END
+XMLEnviadosPedCanc.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLEnviadosPedCanc.java
+END
+XMLDescompactados.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLDescompactados.java
+END
+XMLZipNaoEnviados.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLZipNaoEnviados.java
+END
+FsdaDanfeGerados.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/FsdaDanfeGerados.java
+END
+XMLValidadosPedInut.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLValidadosPedInut.java
+END
+DanfeEntradaGerados.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DanfeEntradaGerados.java
+END
+FsdaImpressos.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/FsdaImpressos.java
+END
+FsdaProcessados.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/FsdaProcessados.java
+END
+XMLAutorizadosInut.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLAutorizadosInut.java
+END
+FsdaZipNaoEnviados.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/FsdaZipNaoEnviados.java
+END
+FsdaDescompactados.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/FsdaDescompactados.java
+END
+XMLNaoPersistidos.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLNaoPersistidos.java
+END
+XMLValidados.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLValidados.java
+END
+XMLProcessadosCanc.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLProcessadosCanc.java
+END
+Dpec2Txt.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/Dpec2Txt.java
+END
+XMLAssinadosPedInut.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLAssinadosPedInut.java
+END
+XMLGeradosPedInut.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLGeradosPedInut.java
+END
+DpecEmailsEnviados.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecEmailsEnviados.java
+END
+TxtRetornoNFeEntradaGerado.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/TxtRetornoNFeEntradaGerado.java
+END
+DpecValidados.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecValidados.java
+END
+DpecEnviados.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecEnviados.java
+END
+XMLAssinados.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLAssinados.java
+END
+XMLGerados.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLGerados.java
+END
+XMLValidadosPedCanc.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLValidadosPedCanc.java
+END
+XMLProcessados.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLProcessados.java
+END
+XMLCanc2Txt.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLCanc2Txt.java
+END
+XMLAutorizadosCanc.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLAutorizadosCanc.java
+END
+DpecDanfeGerados.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecDanfeGerados.java
+END
+DpecAssinados.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecAssinados.java
+END
+DpecGerados.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecGerados.java
+END
+XMLRecebidos.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLRecebidos.java
+END
+DpecProcessados.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecProcessados.java
+END
+XML2Txt.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XML2Txt.java
+END
+XMLAssinadosPedCanc.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLAssinadosPedCanc.java
+END
+XMLGeradosPedCanc.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLGeradosPedCanc.java
+END
+XMLAutorizados.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLAutorizados.java
+END
+DpecDescompactados.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecDescompactados.java
+END
+DpecZipNaoEnviados.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/DpecZipNaoEnviados.java
+END
+XMLEnviados.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLEnviados.java
+END
+GerarDpec.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/GerarDpec.java
+END
+CTeValidos.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/CTeValidos.java
+END
+FsdaPreparados.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/FsdaPreparados.java
+END
+XMLEntradaValido.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/queue/XMLEntradaValido.java
+END

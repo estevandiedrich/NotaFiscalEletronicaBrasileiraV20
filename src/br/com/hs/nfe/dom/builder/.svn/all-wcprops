@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder
+END
+EnvEventoDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder/EnvEventoDocumentBuilder.java
+END
+NFeProcDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder/NFeProcDocumentBuilder.java
+END
+ConsReciNFeDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder/ConsReciNFeDocumentBuilder.java
+END
+ConsStatServDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder/ConsStatServDocumentBuilder.java
+END
+DpecProcDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder/DpecProcDocumentBuilder.java
+END
+FsdaProcDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder/FsdaProcDocumentBuilder.java
+END
+CancProcDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dom/builder/CancProcDocumentBuilder.java
+END

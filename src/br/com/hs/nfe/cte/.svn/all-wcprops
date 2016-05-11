@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/cte
+END
+ConsSitCteDocumentBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/cte/ConsSitCteDocumentBuilder.java
+END
+ConsSitCteThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/cte/ConsSitCteThread.java
+END
+ReciCteValidadorThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/cte/ReciCteValidadorThread.java
+END

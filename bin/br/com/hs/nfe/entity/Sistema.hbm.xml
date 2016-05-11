@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.Sistema" table="sistema">
+	    <id name="codSistema" type="int" column="codsistema">
+	        <generator class="native" />
+	    </id>
+	    <property name="usarProxy" type="java.lang.Character">
+	        <column name="usarproxy" length="1" />
+	    </property>
+	    <property name="servidorProxy" type="string">
+	        <column name="servidorproxy" length="250" not-null="true" />
+	    </property>
+	    <property name="portaServidorProxy" type="string">
+	        <column name="portaservidorproxy" length="250" not-null="true" />
+	    </property>
+	    <property name="usuarioProxy" type="string">
+	        <column name="usuarioproxy" length="250" not-null="true" />
+	    </property>
+	    <property name="senhaUsuarioProxy" type="string">
+	        <column name="senhausuarioproxy" length="250" not-null="true" />
+	    </property>
+	    <property name="xjustDpec" type="string">
+	        <column name="xjustdpec" length="250" not-null="true" />
+	    </property>
+	    <property name="enviNFeXSD" type="string">
+          <column name="envinfexsd" not-null="true" />
+      </property>
+      <property name="cancNFeXSD" type="string">
+          <column name="cancnfexsd" not-null="true" />
+      </property>
+      <property name="inutNFeXSD" type="string">
+          <column name="inutnfexsd" not-null="true" />
+      </property>
+      <property name="envDpecXSD" type="string">
+          <column name="envdpecxsd" not-null="true" />
+      </property>
+      <property name="servidorEmailEntrada" type="string">
+          <column name="servidoremailentrada" not-null="true" />
+      </property>
+      <property name="portaEmailEntrada" type="string">
+          <column name="portaemailentrada" not-null="true" />
+      </property>
+      <property name="usuarioEmailEntrada" type="string">
+          <column name="usuarioemailentrada" not-null="true" />
+      </property>
+      <property name="senhaEmailEntrada" type="string">
+          <column name="senhaemailentrada" not-null="true" />
+      </property>
+      <property name="emailEntradaThreadSleep" type="string">
+          <column name="emailentradathreadsleep" not-null="true" />
+      </property>
+      <property name="procNFeXSD" type="string">
+          <column name="procnfexsd" not-null="true" />
+      </property>
+      <property name="xmlEntrada" type="string">
+          <column name="xmlentrada" not-null="true" />
+      </property>
+      <property name="xmlEntradaAutorizado" type="string">
+          <column name="xmlentradaautorizado" not-null="true" />
+      </property>
+      <property name="xmlEntradaDenegado" type="string">
+          <column name="xmlentradadenegado" not-null="true" />
+      </property>
+      <property name="xmlEntradaValido" type="string">
+          <column name="xmlentradavalido" not-null="true" />
+      </property>
+      <property name="xmlEntradaInvalido" type="string">
+          <column name="xmlentradainvalido" not-null="true" />
+      </property>
+      <property name="danfeEntrada" type="string">
+          <column name="danfeentrada" not-null="true" />
+      </property>
+      <property name="procCancXSD" type="string">
+          <column name="proccancxsd" not-null="true" />
+      </property>
+      <property name="cteEntrada" type="string">
+          <column name="cteentrada" not-null="true" />
+      </property>
+      <property name="cteEntradaValido" type="string">
+          <column name="cteentradavalido" not-null="true" />
+      </property>
+      <property name="cteEntradaInvalido" type="string">
+          <column name="cteentradainvalido" not-null="true" />
+      </property>
+      <property name="cteEntradaAutorizado" type="string">
+          <column name="cteentradaautorizado" not-null="true" />
+      </property>
+      <property name="cteEntradaDenegado" type="string">
+          <column name="cteentradadenegado" not-null="true" />
+      </property>
+      <property name="emailCteThreadSleep" type="string">
+          <column name="emailctethreadsleep" not-null="true" />
+      </property>
+      <property name="servidorEmailCte" type="string">
+          <column name="servidoremailcte" not-null="true" />
+      </property>
+      <property name="portaEmailCte" type="string">
+          <column name="portaemailcte" not-null="true" />
+      </property>
+      <property name="usuarioEmailCte" type="string">
+          <column name="usuarioemailcte" not-null="true" />
+      </property>
+      <property name="senhaEmailCte" type="string">
+          <column name="senhaemailcte" not-null="true" />
+      </property>
+      <property name="procCteXSD" type="string">
+          <column name="procctexsd" not-null="true" />
+      </property>
+      <property name="procCancCteXSD" type="string">
+          <column name="proccancctexsd" not-null="true" />
+      </property>
+      <property name="envEventoXSD" type="string">
+          <column name="enveventoxsd" not-null="true" />
+      </property>
+      <property name="txtRetorno" type="string">
+          <column name="txtretorno" not-null="true" />
+      </property>
+      <property name="envEventoXMLVinculado" type="string">
+          <column name="enveventoxmlvinculado" not-null="true" />
+      </property>
+      <property name="retEnvEventoTXT" type="string">
+          <column name="retenveventotxt" not-null="true" />
+      </property>
+      <property name="emailAdministrador" type="string">
+          <column name="emailadministrador" not-null="true" />
+      </property>
+      <property name="assuntoCertificadoVencido" type="string">
+          <column name="assuntocertificadovencido" not-null="true" />
+      </property>
+      <property name="textoCertificadoVencido" type="string">
+          <column name="textocertificadovencido" not-null="true" />
+      </property>
+      <property name="dacte" type="string">
+          <column name="dacte" not-null="true" />
+      </property>
+      <property name="gerarXMLApartirDeTXT" type="string">
+          <column name="gerarxmlapartirdetxt" not-null="true" />
+      </property>
+      <property name="formatoNDD" type="string">
+          <column name="formatondd" not-null="true" />
+      </property>
+    </class>
+    <query name="sistema.getSistema">
+	<![CDATA[
+         from Sistema s
+    ]]>
+	</query>
+</hibernate-mapping>

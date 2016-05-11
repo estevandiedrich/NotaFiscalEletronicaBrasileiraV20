@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao
+END
+CteDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/CteDAO.java
+END
+UsuarioEstabelecimentoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/UsuarioEstabelecimentoDAO.java
+END
+GenericDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/GenericDAO.java
+END
+EventoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/EventoDAO.java
+END
+EstabelecimentoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/EstabelecimentoDAO.java
+END
+SistemaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/SistemaDAO.java
+END
+NfeEntradaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/NfeEntradaDAO.java
+END
+UsuarioDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/UsuarioDAO.java
+END
+InutNFeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/InutNFeDAO.java
+END
+NFeDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/eurekatablet/!svn/ver/35/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/NFeDAO.java
+END
+NFeFileDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/src/br/com/hs/nfe/dao/NFeFileDAO.java
+END

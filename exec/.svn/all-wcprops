@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec
+END
+wrapper.exe
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/wrapper.exe
+END
+QueryNFeWrapper-NT.bat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/QueryNFeWrapper-NT.bat
+END
+StopNFeWrapper-NT.bat
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/StopNFeWrapper-NT.bat
+END
+InstallNFeWrapper-NT.bat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/InstallNFeWrapper-NT.bat
+END
+UninstallNFeWrapper-NT.bat
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/UninstallNFeWrapper-NT.bat
+END
+ListaImpressoras.bat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/ListaImpressoras.bat
+END
+PauseNFeWrapper-NT.bat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/PauseNFeWrapper-NT.bat
+END
+StartNFeWrapper-NT.bat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/StartNFeWrapper-NT.bat
+END
+NFeWrapperCommand.bat
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/NFeWrapperCommand.bat
+END
+NFeWrapper.bat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/NFeWrapper.bat
+END
+ResumeNFeWrapper-NT.bat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/eurekatablet/!svn/ver/14/NotaFiscalEletronicaBrasileiraV20/exec/ResumeNFeWrapper-NT.bat
+END

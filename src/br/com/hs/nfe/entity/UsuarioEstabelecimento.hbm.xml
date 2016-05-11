@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="br.com.hs.nfe.entity.UsuarioEstabelecimento" table="usuarioestabelecimento">
+<!-- 
+Campos do banco de dados
+ -->
+ 		<!-- Codigo do Relacionamento entre Usuario e Estabelecimento -->
+        <id name="codUsuarioEstabelecimento" type="int" column="codusuarioestabelecimento">
+            <generator class="native" />
+        </id>
+		
+		<!-- Codigo Usuario -->
+        <property name="codUsuario" type="int">
+            <column name="codusuario" not-null="true" />
+        </property>
+
+		<!-- Codigo Estabelecimento -->		
+        <property name="codEstabelecimento" type="int">
+            <column name="codestabelecimento" not-null="true" />
+        </property>
+
+		<!-- Chave Primária e Unica -->
+        <component name="chavePrimaria" class="br.com.hs.nfe.entity.UsuarioEstabelecimentoCP" unique="true" update="false" insert="false">
+        	<property name="codUsuario" type="int" update="false" insert="false">
+	            <column name="codusuario" not-null="true" />
+    	    </property>
+	        <property name="codEstabelecimento" type="int" update="false" insert="false">
+	            <column name="codestabelecimento" not-null="true" />
+    	    </property>
+        </component>
+    </class>
+    <query name="usuarioEstabelecimento.findByUsuario"><![CDATA[
+            from UsuarioEstabelecimento ue
+            where ue.codUsuario = :_codUsuario
+            ]]>
+	</query>
+    <query name="usuarioEstabelecimento.findEstabelecimentoByUsuario"><![CDATA[
+            Select e 
+            from 
+            	Estabelecimento e, 
+            	UsuarioEstabelecimento ue
+            where
+            	e.codEstabelecimento = ue.codEstabelecimento 
+            	and ue.codUsuario = :_codUsuario
+            ]]>
+	</query>
+</hibernate-mapping>
